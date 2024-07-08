@@ -7,7 +7,6 @@ button.addEventListener("click", () => {
       let responseObj = JSON.parse(this.responseText);
       const img = document.getElementsByClassName("asyncImg")[0];
       img.src = responseObj.url;
-      //   console.log(responseObj);
     }
   };
   xttp.open("GET", "https://api.waifu.pics/sfw/waifu", true);
