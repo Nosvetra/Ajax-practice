@@ -4,15 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ajax Practice</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <button id="to-add-photo">Click ME</button>
-    <br />
-    <img class="asyncImg" src="" style="height: 500px" />
-    <br />
-    <button id="to-add-photo2">Don't Click Me</button>
-    <br />
-    <img class="asyncImg2" src="" style="height: 500px" />
+    <section id="header">
+      <div class="new-trans">
+        <div class="some-txt">
+          <h1>Ajax Practice</h1>
+        </div>
+      </div>
+    </section>
+    <section id="main">
+      <div class="flex">
+        <div class="itm1">
+          <button id="to-add-photo">SFW</button>
+          <img class="asyncImg" src="" style="height: 500px" />
+        </div>
+        <div class="itm2">
+          <button id="to-add-photo2">NSFW</button>
+          <img class="asyncImg2" src="" style="height: 500px" />
+        </div>
+      </div>
+    </section>
+    <section id="paragraph"></section>
     <script src="index.js"></script>
   </body>
 </html>
